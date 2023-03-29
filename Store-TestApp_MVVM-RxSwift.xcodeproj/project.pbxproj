@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A148616829CD8C8800D723CE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A148616729CD8C8800D723CE /* SnapKit */; };
+		A148616B29D41D6E00D723CE /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A148616A29D41D6E00D723CE /* RxCocoa */; };
+		A148616D29D41D6E00D723CE /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = A148616C29D41D6E00D723CE /* RxRelay */; };
+		A148616F29D41D6E00D723CE /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A148616E29D41D6E00D723CE /* RxSwift */; };
 		A16CE97829C84B3E00C80D57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16CE97729C84B3E00C80D57 /* AppDelegate.swift */; };
-		A16CE97A29C84B3E00C80D57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16CE97929C84B3E00C80D57 /* SceneDelegate.swift */; };
-		A16CE97C29C84B3E00C80D57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16CE97B29C84B3E00C80D57 /* ViewController.swift */; };
 		A16CE97F29C84B3E00C80D57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16CE97D29C84B3E00C80D57 /* Main.storyboard */; };
 		A16CE98229C84B3E00C80D57 /* Store_TestApp_MVVM_RxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A16CE98029C84B3E00C80D57 /* Store_TestApp_MVVM_RxSwift.xcdatamodeld */; };
 		A16CE98429C84B4000C80D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16CE98329C84B4000C80D57 /* Assets.xcassets */; };
 		A16CE98729C84B4000C80D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16CE98529C84B4000C80D57 /* LaunchScreen.storyboard */; };
+		A16CE99829C99A1600C80D57 /* StartTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16CE99729C99A1600C80D57 /* StartTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A16CE97429C84B3E00C80D57 /* Store-TestApp_MVVM-RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Store-TestApp_MVVM-RxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16CE97729C84B3E00C80D57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A16CE97929C84B3E00C80D57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A16CE97B29C84B3E00C80D57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A16CE97E29C84B3E00C80D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A16CE98129C84B3E00C80D57 /* Store_TestApp_MVVM_RxSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Store_TestApp_MVVM_RxSwift.xcdatamodel; sourceTree = "<group>"; };
 		A16CE98329C84B4000C80D57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16CE98629C84B4000C80D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16CE98829C84B4000C80D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16CE99729C99A1600C80D57 /* StartTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A148616D29D41D6E00D723CE /* RxRelay in Frameworks */,
+				A148616B29D41D6E00D723CE /* RxCocoa in Frameworks */,
+				A148616F29D41D6E00D723CE /* RxSwift in Frameworks */,
+				A148616829CD8C8800D723CE /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +64,79 @@
 		A16CE97629C84B3E00C80D57 /* Store-TestApp_MVVM-RxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				A16CE97729C84B3E00C80D57 /* AppDelegate.swift */,
-				A16CE97929C84B3E00C80D57 /* SceneDelegate.swift */,
-				A16CE97B29C84B3E00C80D57 /* ViewController.swift */,
-				A16CE97D29C84B3E00C80D57 /* Main.storyboard */,
-				A16CE98329C84B4000C80D57 /* Assets.xcassets */,
-				A16CE98529C84B4000C80D57 /* LaunchScreen.storyboard */,
-				A16CE98829C84B4000C80D57 /* Info.plist */,
+				A16CE99329C994CC00C80D57 /* Screens */,
+				A16CE99229C994C500C80D57 /* Models */,
+				A16CE99429C994E400C80D57 /* Services */,
+				A16CE99129C994AE00C80D57 /* Helpers */,
+				A16CE99529C9950700C80D57 /* Storyboard */,
+				A16CE99029C994A000C80D57 /* Resources */,
+				A16CE98F29C993E100C80D57 /* Application */,
+				A16CE98E29C991E800C80D57 /* Supporting Files */,
 				A16CE98029C84B3E00C80D57 /* Store_TestApp_MVVM_RxSwift.xcdatamodeld */,
 			);
 			path = "Store-TestApp_MVVM-RxSwift";
+			sourceTree = "<group>";
+		};
+		A16CE98E29C991E800C80D57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A16CE98829C84B4000C80D57 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A16CE98F29C993E100C80D57 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A16CE97729C84B3E00C80D57 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A16CE99029C994A000C80D57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A16CE98329C84B4000C80D57 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A16CE99129C994AE00C80D57 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A16CE99229C994C500C80D57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A16CE99329C994CC00C80D57 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A16CE99729C99A1600C80D57 /* StartTabBarController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A16CE99429C994E400C80D57 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A16CE99529C9950700C80D57 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A16CE98529C84B4000C80D57 /* LaunchScreen.storyboard */,
+				A16CE97D29C84B3E00C80D57 /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +155,12 @@
 			dependencies = (
 			);
 			name = "Store-TestApp_MVVM-RxSwift";
+			packageProductDependencies = (
+				A148616729CD8C8800D723CE /* SnapKit */,
+				A148616A29D41D6E00D723CE /* RxCocoa */,
+				A148616C29D41D6E00D723CE /* RxRelay */,
+				A148616E29D41D6E00D723CE /* RxSwift */,
+			);
 			productName = "Store-TestApp_MVVM-RxSwift";
 			productReference = A16CE97429C84B3E00C80D57 /* Store-TestApp_MVVM-RxSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +189,10 @@
 				Base,
 			);
 			mainGroup = A16CE96B29C84B3E00C80D57;
+			packageReferences = (
+				A148616629CD8C8800D723CE /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A148616929D41D6E00D723CE /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = A16CE97529C84B3E00C80D57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16CE97C29C84B3E00C80D57 /* ViewController.swift in Sources */,
 				A16CE97829C84B3E00C80D57 /* AppDelegate.swift in Sources */,
-				A16CE97A29C84B3E00C80D57 /* SceneDelegate.swift in Sources */,
 				A16CE98229C84B3E00C80D57 /* Store_TestApp_MVVM_RxSwift.xcdatamodeld in Sources */,
+				A16CE99829C99A1600C80D57 /* StartTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +371,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YGRG6HC2V6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Store-TestApp_MVVM-RxSwift/Info.plist";
+				INFOPLIST_FILE = "Store-TestApp_MVVM-RxSwift/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +385,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Yuratev-Sergey.Store-TestApp-MVVM-RxSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,12 +403,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YGRG6HC2V6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Store-TestApp_MVVM-RxSwift/Info.plist";
+				INFOPLIST_FILE = "Store-TestApp_MVVM-RxSwift/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +417,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Yuratev-Sergey.Store-TestApp-MVVM-RxSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -362,6 +448,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A148616629CD8C8800D723CE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A148616929D41D6E00D723CE /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A148616729CD8C8800D723CE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A148616629CD8C8800D723CE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A148616A29D41D6E00D723CE /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A148616929D41D6E00D723CE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		A148616C29D41D6E00D723CE /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A148616929D41D6E00D723CE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		A148616E29D41D6E00D723CE /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A148616929D41D6E00D723CE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A16CE98029C84B3E00C80D57 /* Store_TestApp_MVVM_RxSwift.xcdatamodeld */ = {
